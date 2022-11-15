@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href = "/index.html" title="Do strony głównej">Powrót do strony głównej</a>
+    <br><br>
+    <div class="container">
+        <form action="">
+            <fieldset>
+            <legend>FORMULARZ ZAMÓWIENIA </legend> <br>
+            <label>Podaj dane do wysyłki</label><br><br>
+            <br>
+            <label for="imie">Imię</label><br>
+            <input type="text" id="fname" name="fname" maxlength="50" placeholder="Proszę uzupełnić imię">
+        <br><br>
+            <label for="nazwisko">Nazwisko</label><br>
+            <input type="text" id="lname" name="lname" maxlength="50" placeholder="Proszę uzupełnić nazwisko">
+        <br><br>
+            <label for="miasto">Miasto</label><br>
+            <input type="text" id="city" name="city" maxlength="50" placeholder="Proszę uzupełnić miasto">
+        <br><br>
+            <label for="kodpocztowy">Kod Pocztowy</label><br>
+            <input type="number" id="code">
+        <br><br>
+            <label for="ulica">Ulica</label><br>
+            <input type="text" id="street" name="street" maxlength="50" placeholder="Proszę uzupełnić ulice">
+        <br><br>
+            <label for="hnr">Nr domu</label><br>
+            <input type="number" id="hnr" placeholder="Proszę uzupełnić numer domu">
+        <br><br>
+            <label for="fnr">Nr mieszkania</label><br>
+            <input type="number" id="fnr">
+        <br><br>
+            <label for="mail">Mail</label><br>
+            <input type="text" id="mail" name="mail" maxlength="50" placeholder="Proszę uzupełnić mail">
+        <br><br>
+            <label for="telefon">Telefon</label><br>
+            <input type="tel" id="tel" placeholder="Prosze uzupełić numer telefonu">
+        <br><br>
+        
+            <label>Wystawić fakturę?</label>
+            <input type="checkbox" name="checkbox" value="wartość"> 
+            <br><br>
+            <label>Wybierz sposób dostawy</label><br><br>
+            <input type="radio" name="radio" value="wartość"><label>Kurier</label><br>
+            <input type="radio" name="radio" value="wartość"><label>Paczkomat</label><br>
+            <input type="radio" name="radio" value="wartość"><label>Punkt odbioru</label><br>
+            <br><br>
+
+            <label>Wybierz metodę płatności</label><br>
+
+            <input type="radio" name="radio" value="wartość">
+            <img class="imgkarta" src="..\\images\karta.jpg "  style="width: 70px; height: 50px; "><br>
+            <label>Płatność kartą</label>
+            <br>
+            <input type="radio" name="radio" value="wartość">
+            <img class="imgkarta2" src="..\\images\karta2.jpg" style="width: 70px; height: 50px; "><br>
+            <label>Przelew bankowy</label><br>
+            <br>
+            <label>Uwagi do zamówienia</label><br>
+            <textarea name="area1"></textarea><br><br>
+            <button type="submit">Wyślij formularz</button>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
